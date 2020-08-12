@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 public class Http2ClientController {
 
 //    private static final String url = "https://www.finnq.com";
-    private static final String url = "https://localhost:8443/http2/2";
+    private static final String url = "https://localhost:8443/http2-server/2";
 
     @RequestMapping(method = RequestMethod.GET, value = "http2/version")
     @ResponseBody
